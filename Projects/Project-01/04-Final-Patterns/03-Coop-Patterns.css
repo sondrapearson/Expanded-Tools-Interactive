@@ -16,6 +16,12 @@ h1{
 	font-style: bold;
 }
 
+h2{
+	margin-top: 20px;
+	font-size: 3em;
+	font-style: bold;
+}
+
 .main{
 	width: 80%;
 	margin: 100px auto;
