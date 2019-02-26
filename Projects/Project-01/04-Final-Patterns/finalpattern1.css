@@ -1,0 +1,439 @@
+body{
+font-size:20px;
+  width: 1000px;
+  height: 1500px;
+    background-color: #20194E;
+}
+
+#backbars{
+    position: absolute;
+    display:flex; 
+    flex-direction: ; 
+  flex-wrap:wrap;
+}
+
+.bar1{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+    margin: 50px;
+    
+}
+.bar2{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+    margin-left: 0px;
+    margin-top:100px;
+}
+.bar3{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 490px;
+    margin-top:200px;
+}
+
+.bar4{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+    margin-top:200px;
+}
+
+.bar5{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 380px;
+    margin-top:100px;
+}
+.bar6{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 600px;
+    margin-top:200px;
+}
+.bar7{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 40px;
+    margin-top:270px;
+}
+.bar8{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 90px;
+    margin-top:200px;
+}
+.bar9{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 490px;
+    margin-top:200px;
+}
+.bar10{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 150px;
+    margin-top:200px;
+}
+.bar11{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 500px;
+    margin-top:70px;
+}
+.bar12{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 50px;
+    margin-top:250px;
+}
+.bar13{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 600px;
+    margin-top:20px;
+}
+
+.bar14{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: -30px;
+    margin-top:200px;
+}
+
+.bar15{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 750px;
+    margin-top:250px;
+}
+
+.bar16{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 500px;
+    margin-top:100px;
+}
+
+.bar17{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 40px;
+    margin-top:150px;
+}
+
+.bar18{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 40px;
+    margin-top:20px;
+}
+
+.bar19{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 140px;
+    margin-top:200px;
+}
+
+.bar20{
+    width: 650px;
+      height: 30px;
+      background: #ffc10a;
+     margin-left: 490px;
+    margin-top:100px;
+}
+
+#circles{
+  position:fixed;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.circle1 {
+    width:500px;
+	height:500px;
+	background:#32A7FF;
+    border-radius: 50%;
+    margin-left: -50px;
+    margin-top: -30px;   
+}
+
+.circle2 {
+    width:300px;
+	height:300px;
+	background:#32A7FF;
+    border-radius: 50%;
+    margin-top: 370px;
+    margin-left: 200px;
+}
+
+.circle3 {
+    width:150px;
+	height:150px;
+	background:#32A7FF;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 250px;
+}
+
+#frontbars{
+    position:absolute;
+  display:flex;
+  flex-wrap:wrap;
+
+}
+
+.front1{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 150px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front1:hover{
+    background: #ffc10a;
+}
+
+.front2{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 250px;
+        -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front2:hover{
+    background: #ffc10a;
+}
+
+.front3{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 170px;
+    margin-left: 70px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front3:hover{
+    background: #ffc10a;
+}
+
+
+.front4{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 250px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+
+.front4:hover{
+    background: #ffc10a;
+}
+
+.front5{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 300px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front5:hover{
+    background: #ffc10a;
+}
+
+.front6{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 250px;
+    margin-left: 100px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front6:hover{
+    background: #ffc10a;
+}
+
+.front7{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top:200px;
+    margin-left:200px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front7:hover{
+    background: #ffc10a;
+}
+
+.front8{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 250px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front8:hover{
+    background: #ffc10a;
+}
+
+.front9{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 230px;
+    margin-left: 290px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front9:hover{
+    background: #ffc10a;
+}
+
+.front10{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 300px;
+    margin-left: 600px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front10:hover{
+    background: #ffc10a;
+}
+
+
+.front11{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 250px;
+    margin-left: 150px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front11:hover{
+    background: #ffc10a;
+}
+
+.front12{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 250px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front12:hover{
+    background: #ffc10a;
+}
+
+.front13{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 400px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front13:hover{
+    background: #ffc10a;
+}
+
+.front14{
+    mix-blend-mode: screen;
+    width: 650px;
+      height: 30px;
+      background: #20194E;
+    margin-top: 350px;
+    margin-left: 150px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.front14:hover{
+    background: #ffc10a;
+}
+
+
+

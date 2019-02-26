@@ -1,0 +1,113 @@
+body{
+font-size:20px;
+background-color: #FFB300;
+}
+
+#middle1{
+position:fixed;
+  display:absolute;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.middlecircle1{
+     width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #FFEB32;
+  padding:20px;
+ margin-top: 370px;
+    margin-left: 370px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.middlecircle1:hover{
+  background-color: #68f4ff;
+}
+
+
+#middle2{
+position:fixed;
+  display:absolute;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.middlecircle2{
+     width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #FFEB32;
+  padding:20px;
+ margin-top: 370px;
+    margin-left: 830px;
+    -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+.middlecircle2:hover{
+  background-color: #FFB300;
+}
+
+
+#front{
+  position:fixed;
+  display:absolute;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:center;
+    z-index:1;
+}
+
+.circle1{
+ width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #FFEB32;
+  padding:20px;
+  margin:150px;
+    -webkit-transition: background-color 1s ease-out;
+-moz-transition: background-color 1s ease-out;
+-o-transition: background-color 1s ease-out;
+transition: background-color 1s ease-out;
+}
+
+.circle1:hover{
+  background-color: #68f4ff;
+}
+
+
+#back{
+  display:absolute;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:center;
+  
+}
+
+.circle{
+ width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #EB7595;
+  padding:20px;
+  margin:50px;
+}
+
+.circle:hover{
+  background-color: white;
+  
+}
+
+
