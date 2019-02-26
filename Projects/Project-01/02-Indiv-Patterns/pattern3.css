@@ -1,0 +1,44 @@
+body{
+font-size:20px;
+background-color: white;
+}
+
+#front{
+mix-blend-mode: multiply;
+  position:fixed;
+  display:flex;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:center;
+  
+}
+
+.square2 {
+width: 200px;
+  height: 200px;
+  background-color:pink;
+  display:inline-block;
+  padding:10px;
+    margin: 100px;
+    margin-top: 150px;
+}
+
+
+#back {
+  mix-blend-mode: multiply;
+  display:flex;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.square1 {
+    width: 200px;
+  height: 200px;
+  background-color:pink;
+  display:inline-block;
+  padding:10px;
+  margin:30px;
+}
+
+

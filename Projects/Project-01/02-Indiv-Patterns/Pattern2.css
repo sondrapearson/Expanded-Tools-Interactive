@@ -1,0 +1,96 @@
+body{
+font-size:20px;
+background-color: #FFB300;
+}
+
+#front{
+  position:fixed;
+  display:flex;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.circle1{
+ width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #FFEB32;
+  padding:20px;
+  margin:150px;
+}
+
+.circle1:hover{
+ width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #0000FF;
+  padding:20px;
+  margin:150px;
+}
+
+#middle {
+position:fixed;
+  display:flex;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+
+.middlecircle1{
+     width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #FFEB32;
+  padding:20px;
+margin-top: 370px;
+  margin-left: 422px;
+}
+
+
+#middle2 {
+position:fixed;
+  display:flex;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:center;
+}
+  .middlecircle2{
+ width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #FFEB32;
+  padding:20px;
+margin-top: 370px;
+  margin-left: 862px;
+}
+
+#back{
+  display:flex;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  justify-content:center;
+  
+}
+
+.circle{
+ width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display:inline-block;
+  background-color: #EB7595;
+  padding:20px;
+  margin:50px;
+}
+
+.circle:hover{
+  background-color: white;
+  
+}
+
+
