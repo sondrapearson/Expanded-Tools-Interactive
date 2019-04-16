@@ -1,0 +1,1014 @@
+body{
+    background: white;
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+ @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+#container-2{
+   float: left;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 750px;
+    
+}
+
+/* LETTER A STYLING */
+
+.letter-a {
+     position: relative;
+    margin: 10px;  
+    }
+
+.circle-base {
+     width: 100px;
+      height: 100px;
+      background: #dd0033;
+      border-radius: 50%;
+    
+    position: relative;
+}
+
+.circle-base-top {
+    width: 80px;
+      height: 80px;
+      background: white;
+      border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+/* Crossbar and stems of A */
+.vertical-rect-1{
+    width: 10px;
+    height: 80px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.vertical-rect-2{
+     width: 10px;
+    height: 80px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.horizontal-rect-a{
+     width: 50px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 25px;
+}
+
+.rect-crop-a{
+    width: 40px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+/* LETTER B STYLING */
+.letter-b {
+     position: relative;
+    margin: 10px;
+    }
+
+.horizontal-rect-b{
+     width: 70px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 25px;
+}
+
+.angle-rect-b{
+     width: 30px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 63px;
+    transform: rotate(-50deg)
+}
+
+.angle-crop-b1{
+     width: 0;
+      height: 0;
+    position: absolute;
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent;
+      border-bottom: 10px solid white;
+   margin-left: 87px;
+    margin-top: 29px;
+    transform: scale(2);   
+}
+
+
+/* LETTER C STYLING */
+
+.letter-c {
+     position: relative;
+   clip-path: inset(0px 20px 0px 0px);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    }
+
+/* LETTER D STYLING */
+
+.letter-d{
+    position: relative;
+    clip-path: inset(0px 0px 0px 20px);
+    margin-left: -10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* LETTER E STYLING */
+
+.letter-e {
+     position: relative;
+     clip-path: inset(0px 20px 0px 0px);
+     margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+/* LETTER F STYLING */
+
+.letter-f{
+    position: relative;
+     clip-path: inset(0px 20px 0px 0px);
+     margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.f-crop{
+    width: 50px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+/* LETTER G STYLING */
+
+.letter-g{
+    position: relative;
+    margin: 10px;
+}
+
+.horizontal-rect-g{
+     width: 36px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 55px;
+}
+
+.g-crop{
+    width: 20px;
+    height: 44px;
+    background: white;
+    margin-left: 80px;
+    
+}
+
+/* LETTER H STYLING */
+
+.letter-h{
+   position: relative;
+    margin: 10px; 
+}
+
+.h-crop{
+     width: 40px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    margin-left: 30px;
+}
+
+/* LETTER I STYLING */
+.i{ position: relative;
+    margin: 10px;}
+.letter-i{
+   
+    transform: rotate(90deg);
+}
+
+/* LETTER J STYLING */
+
+.letter-j{
+    position: relative;
+    clip-path: inset(0px 0px 0px 20px);
+    margin-left: -10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.j-crop{
+    width: 70px;
+    height: 24px;
+    background: white;
+    position: absolute;
+    
+}
+
+/* LETTER K STYLING */
+
+.letter-k {
+     position: relative;
+    margin:10px;
+   
+    }
+
+.k-bar-1{
+   width: 65px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 17px; 
+    transform: rotate(-45deg);
+}
+
+.k-bar-2{
+     width: 55px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px; 
+    transform: rotate(45deg);
+}
+
+.k-crop-1{
+    width: 29px;
+    height: 16px;
+    background: white;
+   position: absolute;
+    margin-left: 30px;
+}
+
+.k-crop-2{
+    width: 38px;
+    height: 15px;
+    background: white;
+   position: absolute;
+    margin-left: 30px;
+    margin-top: 85px;
+}
+
+.k-crop-3{
+    width: 12px;
+    height: 20px;
+    background: white;
+   position: absolute;
+    margin-left: 56px;
+    margin-top: -5px;
+    transform: rotate(45deg);
+}
+
+.k-crop-4{
+    width: 12px;
+    height: 20px;
+    background: white;
+   position: absolute;
+    margin-top: 80px;
+    margin-left: 61px;
+    transform: rotate(135deg);
+}
+
+/* LETTER L STYLING */
+
+.letter-l{
+    position: relative;
+    clip-path: inset(0px 20px 0px 0px);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    
+}
+
+.l-2{
+      position: relative;
+    clip-path: inset(0px 20px 0px 0px);
+    margin: 10px;
+}
+
+.l-crop{
+    width: 70px;
+    height: 24px;
+    background: white;
+    position: absolute;
+    margin-left: 30px;
+}
+
+/* LETTER M STYLING */
+
+.letter-m{
+    position: relative;
+    margin: 10px;
+}
+
+.m-bar-1{
+     width: 10px;
+    height: 38px;
+    background: #dd0033;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-left: 55px;
+    margin-top: 2px;
+}
+
+.m-bar-2{
+      width: 10px;
+    height: 38px;
+    background: #dd0033;
+    position: absolute;
+    transform: rotate(-45deg);
+    margin-left: 35px;
+    margin-top: 2px;
+}
+
+/* LETTER N STYLING */
+
+.letter-n{
+      position: relative;
+    margin: 10px; 
+}
+
+.n-crossbar-1{
+    width: 5px;
+    height: 99px;
+    position: absolute;
+    background: #dd0033;
+    transform: rotate(-30deg);
+    margin-left: 51px;
+   margin-top: -2px;  
+}
+
+.n-crossbar-2{
+    width: 5px;
+    height: 99px;
+    position: absolute;
+    background: #dd0033;
+    transform: rotate(-30deg);
+    margin-left: 45px;
+   margin-top: 2px;  
+}
+
+.n-crossbar-3{
+    width: 5px;
+    height: 99px;
+    position: absolute;
+    background: #dd0033;
+    transform: rotate(-30deg);
+    margin-left: 48px;
+   margin-top: 0px;  
+}
+
+/* LETTER O STYLING */
+
+.letter-o{
+     position: relative;
+    margin: 10px;
+}
+
+/* LETTER P STYLING */
+
+.letter-p{
+     position: relative;
+    margin: 10px;
+}
+
+.p-crop{
+    width: 70px;
+    height: 47px;
+    background: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 54px;
+}
+
+/* LETTER Q STYLING */
+
+.letter-q{
+     position: relative;
+    margin: 10px;
+}
+
+.q-tail{
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    background: #dd0033;
+    transform: rotate(-45deg);
+    margin-left: 65px;
+    margin-top: 58px;
+}
+
+/* LETTER R STYLING */
+
+.letter-r{
+   position: relative;
+    margin: 10px;
+}
+
+.r-tail{
+     width: 49px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 43px; 
+    transform: rotate(45deg);
+}
+
+.r-crop-1{
+     width: 14.5px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-left: 65px;
+    margin-top: 82px;
+}
+
+.r-crop-2{
+      width: 40px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 81px;
+}
+
+.r-crop-3{
+      width: 15px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-left: 83px;
+    margin-top: 65px;
+}
+
+.r-crop-4{
+     width: 20px;
+    height: 14px;
+    background: white;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 54px;
+}
+
+/* LETTER S STYLING */
+
+.s {
+     position: relative;
+    margin: 10px; 
+}
+.letter-s{
+    transform: rotate(90deg) scaleY(-1);
+}
+
+/* LETTER T STYLING */
+
+.t{
+    position: relative;
+    margin: 10px; 
+}
+
+.letter-t{
+    
+    transform: rotate(90deg);
+}
+
+.horizontal-rect-t{
+     width: 70px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 25px;
+}
+
+.t-crop{
+   width: 30px;
+    height: 44px;
+    background: white;
+    position: absolute;
+    margin-left: 70px;
+}
+
+.t-crop-2{
+   width: 30px;
+    height: 44px;
+    background: white;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 54px;
+}
+
+/* LETTER U STYLING */
+
+.letter-u{
+    position: relative;
+    margin: 10px;
+}
+
+/* LETTER V STYLING */
+
+.letter-v{
+    position: relative;
+    margin: 10px;
+}
+
+.v-crop-1{
+     width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    margin-left: 27px;
+    transform: rotate(-18deg);
+}
+
+.v-crop-2{
+     width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    margin-left: 53px;
+    transform: rotate(18deg);
+}
+
+.v-crop-3{
+     width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    margin-left: 44px;
+    margin-top: -1px;
+}
+
+.v-stem-1{
+    width: 10px;
+    height: 85px;
+    background: #dd0033;
+    position: absolute;
+    transform: rotate(18deg);
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.v-stem-2{
+    width: 10px;
+    height: 85px;
+    background: #dd0033;
+    position: absolute;
+    transform: rotate(-18deg);
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* LETTER W STYLING */
+
+.w {
+    position: relative;
+    margin: 10px;
+}
+.letter-w{
+    
+    transform: rotate(180deg);
+}
+
+/* LETTER X STYLING */
+
+.letter-x{
+    position: relative;
+    margin: 10px;
+}
+
+.x-stroke-1{
+    width: 10px;
+    height: 85px;
+    background: #dd0033;
+    position: absolute;
+    transform: rotate(35deg);
+    margin-left: 45px;
+    margin-top: 6px;
+}
+
+.x-stroke-2{
+    width: 10px;
+    height: 85px;
+    background: #dd0033;
+    position: absolute;
+    transform: rotate(-35deg);
+    margin-left: 45px;
+    margin-top: 6px;
+}
+
+.x-crop-1{
+  width: 10px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    transform: rotate(-35deg);
+    margin-left: 31px;
+    margin-top: 1px;
+   
+}
+
+.x-crop-2{
+    width: 10px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    transform: rotate(35deg);
+    margin-left: 59px;
+    margin-top: 1px;
+}
+
+.x-crop-3{
+     width: 10px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    transform: rotate(35deg);
+    margin-left: 28px;
+    margin-top: 80px;
+}
+
+.x-crop-4{
+     width: 10px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    transform: rotate(-35deg);
+    margin-left: 63.5px;
+    margin-top: 83px;
+}
+
+.x-crop-5{
+    width: 30px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    margin-left: 36px;
+}
+
+.x-crop-6{
+    width: 34px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    margin-left: 34px;
+    margin-top: 85px;
+}
+
+/* LETTER Y STYLING */
+
+.letter-y{
+    position: relative;
+    margin: 10px;
+}
+
+.y-stroke{
+    width: 10px;
+    height: 45px;
+    background: #dd0033;
+    position: absolute;
+    transform: rotate(-35deg);
+    margin-left: 31px;
+    margin-top: 6px;
+}
+
+/* LETTER Z STYLING */
+
+.z{ 
+    position: relative;
+    margin: 10px;}
+
+.letter-z{
+    transform: rotate(90deg);
+}
+
+/* NUMBER 0 STYLING */
+
+.number-0{
+     position: relative;
+    margin: 10px;
+}
+
+.zero-cross{
+    width: 10px;
+    height: 90px;
+    background: #dd0033;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-left: 45px;
+    margin-top: 3px;
+    
+}
+
+/* NUMBER 1 STYLING */
+
+.number-1{
+     position: relative;
+    margin: 10px;
+}
+
+.one{
+    width: 10px;
+    height: 90px;
+    background: #dd0033;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.one-top{
+    width: 35px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 16px;
+}
+
+.one-crop-1{
+    width: 45px;
+    height: 75px;
+    background: white;
+    position: absolute;
+    margin-top: 26px;
+}
+
+.one-crop-2{
+    width: 45px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    margin-left: 55px;
+}
+
+/* NUMBER 2 STYLING */
+
+.two{
+    position: relative;
+    margin: 10px;
+}
+
+.number-2{
+     transform: rotate(90deg);
+}
+
+/* NUMBER 3 STYLING */
+
+.three{
+    position: relative;
+    margin: 10px;
+}
+
+.number-3{
+    
+    transform: rotate(90deg);
+}
+
+/* NUMBER 4 STYLING */
+
+.number-4{
+    position: relative;
+    margin: 10px;
+}
+
+.horizontal-rect-4{
+    width: 70px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 10px;
+}
+
+.four-crop{
+    width: 45px;
+    height: 44px;
+    background: white;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 54px;
+}
+
+/* NUMBER 5 STYLING */
+
+.number-5{
+    position: relative;
+    margin: 10px;
+}
+
+.top-5{
+    height: 10px;
+    width: 72px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 13px;
+}
+
+.horizontal-rect-5{
+    width: 70px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 20px;
+}
+
+.vertical-rect-5{
+    width: 10px;
+    height: 34px;
+    background: #dd0033;
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 20px
+}
+
+.five-crop{
+   width: 16px;
+    height: 87px;
+    background: white;
+    position: absolute;
+    
+}
+
+.five-crop-2{
+    width: 20px;
+    height: 18px;
+    background: white;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 26px;
+}
+
+
+/* NUMBER 6 STYLING */
+.number-6{
+     position: relative;
+    margin: 10px;
+}
+
+.six-cross{
+    width: 10px;
+    height: 90px;
+    background: #dd0033;
+    position: absolute;
+    transform: rotate(25deg);
+    margin-left: 35px;
+    margin-top: 3px;
+}
+
+.horizontal-rect-6{
+    width: 55px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+.six-crop-1{
+    width: 36px;
+    height: 96px;
+    background: white;
+    position: absolute;
+    transform: rotate(25deg);
+    margin-top: -12px;
+    margin-left: 2.5px;
+}
+
+.six-crop-2{
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    transform: rotate(25deg);
+    margin-top: 1px;
+    margin-left: 64px;
+}
+
+.six-crop-3{
+     width: 30px;
+    height: 32px;
+    background: white;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 70px;
+}
+
+/* NUMBER 7 STYLING */
+.number-7{
+    position: relative;
+    margin: 10px;
+}
+
+.horizontal-rect-7{
+    width: 80px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.seven-cross{
+    width: 90px;
+    height: 10px;
+    background: #dd0033;
+    position: absolute;
+    transform: rotate(-45deg);
+    margin-top: 54px;
+    margin-left: 10px;
+}
+
+.seven-crop-1{
+    width: 20px;
+    height: 45px;
+    background: white;
+    position: absolute;
+   
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.seven-crop-2{
+    width: 38px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    transform: rotate(-45deg);
+    margin-top: 62px;
+    margin-left: 2px;
+}
+
+/* NUMBER 8 STYLING */
+
+.eight{
+    transform: rotate(90deg);
+}
+.number-8{
+    position: relative;
+    margin: 10px;
+}
+
+/* NUMBER 9 STYLING */
+.nine{
+transform: rotate(180deg);
+}
+
+.number-9{
+    position: relative;
+    margin: 10px;
+}
+
+/*  HOVER EFFECTS */
+
+
+.letter-a:hover, .letter-b:hover, .letter-c:hover, .letter-d:hover, .letter-e:hover, .letter-f:hover, .letter-g:hover, .letter-h:hover, .i:hover, .letter-j:hover, .letter-k:hover, .letter-l:hover, .letter-m:hover, .letter-n:hover, .letter-o:hover, .letter-p:hover, .letter-q:hover, .letter-r:hover, .s:hover, .letter-t:hover, .letter-u:hover, .letter-v:hover, .w:hover, .letter-x:hover, .letter-y:hover, .z:hover, .number-0:hover, .number-1:hover, .two:hover, .three:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .eight:hover, .nine:hover {
+    
+     -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite; 
+}
+
+
