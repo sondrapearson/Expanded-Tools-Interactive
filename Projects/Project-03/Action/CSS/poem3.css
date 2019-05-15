@@ -1,0 +1,110 @@
+body{
+  background-image: linear-gradient(to left, #575f70, #263960);
+}
+
+
+h1{
+    color: white;
+    font-family: impact; 
+            font-style: oblique;
+            
+    font-size: 5em;
+}
+
+h2{
+    font-family: impact;
+    color: black;
+    font-size: 3em;
+ 
+}
+
+
+
+.poem{
+    margin: auto;
+    width: 80%;
+    
+}
+
+
+
+.container-1{
+   
+      align-items: center;
+    justify-content: center;
+      display: flex;
+            position: fixed;
+
+}
+
+
+
+.film-name1{
+    margin-top: 1000px;
+    margin-left: 200px;
+      align-items: center;
+    justify-content: center;
+      display: flex;
+            position: absolute;
+}
+
+.container-2{
+margin-top: 250px;
+    margin-left: 200px;
+   align-items: center;
+    justify-content: center;
+      display: flex;
+            position: fixed;
+}
+
+
+
+
+
+.rectangle-2:hover{
+    height: 0px;
+}
+
+.film-name2{
+    margin-top: 2000px;
+    margin-left: 350px;
+      align-items: center;
+    justify-content: center;
+      display: flex;
+            position: absolute;
+
+}
+
+
+.container-3{
+    margin-top: 500px;
+    margin-left: 350px;
+    width: 900px;
+    height: 200px;
+     align-items: center;
+    justify-content: center;
+      display: flex;
+            position: fixed;
+        
+}
+
+
+.film-name3{
+    margin-top: 3000px;
+    margin-left: 400px;
+      align-items: center;
+    justify-content: center;
+      display: flex;
+            position: absolute;
+}
+
+.empty{
+    margin-top: 4050px;
+    width: 100px;
+    height: 1000px;
+    background-color: transparent;
+    position: absolute;
+}
+
+
+
